@@ -3,6 +3,36 @@
     padding: 0;
 }
 body{
+    height: 100vh;
     font-family: 'Outfit', sans-serif;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(212, 45%, 89%);
+
+}
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+.container{
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    width: 250px;
+    height: auto;
+}
+.qrdescrib{
+    margin-top: 10px;
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+    font-weight: 400;
+}
+.qrtitle{
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+    font-weight:700 ;
 }
